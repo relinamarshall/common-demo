@@ -1,0 +1,10 @@
+common:
+  thread:
+    name-prefix: diy_pool_
+  es:
+    enabled: true
+    client:
+      uris: http://localhost:9200/
+spring:
+  application:
+    name: demo-common
